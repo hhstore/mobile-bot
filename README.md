@@ -1,10 +1,9 @@
 # mobile-bot
 
-移动端(Android)自动化机器人
-
-## Android 自动化脚本:
-
+- 移动端(Android)自动化机器人/脚本工具
 - 基于 Auto.JS 工具.
+
+> 目前只支持 Android 平台.
 
 ## 脚本集:
 
