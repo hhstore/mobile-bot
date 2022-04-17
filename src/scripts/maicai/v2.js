@@ -155,19 +155,19 @@ function clickView(count) {
   } else if (text("我知道了").exists()) {
     text("我知道了").findOne().parent().click();
     var has = isSubmitOrderView();
-    toast("failed: " + count + " 订单已约满" + " >> 提交订单页: " + has);
+    toast("retry: " + count + " 订单已约满" + " >> 提交订单页: " + has);
   } else if (text("返回购物车").exists()) {
     text("返回购物车").findOne().parent().click();
     var has = isSubmitOrderView();
-    toast("failed: " + count + " 返回购物车" + " >> 提交订单页: " + has);
+    toast("retry: " + count + " 返回购物车" + " >> 提交订单页: " + has);
   } else if (text("重新加载").exists()) {
     text("重新加载").findOne().parent().click();
     var has = isSubmitOrderView();
-    toast("failed: " + count + " 重新加载" + " >> 提交订单页: " + has);
+    toast("retry: " + count + " 重新加载" + " >> 提交订单页: " + has);
   } else if (text("立即支付").exists()) {
     text("立即支付").findOne().parent().click();
     var has = isSubmitOrderView();
-    toast("failed: " + count + " 立即支付" + " >> 提交订单页: " + has);
+    toast("retry: " + count + " 立即支付" + " >> 提交订单页: " + has);
   } else if (text("确认支付").exists()) {
     const music =
       "/storage/emulated/0/netease/cloudmusic/Music/Joel Hanson Sara Groves - Traveling Light.mp3";
